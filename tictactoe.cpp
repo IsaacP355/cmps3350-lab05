@@ -37,6 +37,32 @@ void tictactoe() {
 
 }
 
+bool DidPlayerWin() {
+    for(int i = 0; i < 9; i = i +3) {
+        if(choices[i] == choices[i+1] && choices[i+1] == choices[i+2]) // if all marks horizontally match, player has won
+            return true;
+    }
+
+    for(int i = 0; i < 3; i++) { // if all marks vertically match, player has won
+        if(choices[i] == choices[i+3] && choices[i+3] == choices[i+6])
+            return true;
+    }
+
+    if(choices[0] == choices[4] && choices[4] == choices[8] || choices[2] == choices[4] && choices[4] == choices[6]) // match was found diagonally
+        return true;
+
+    return false; // no match found for a player to win
+}
+
+bool DidPlayersTie() {
+    for(int i = 0; i < 9; i++) {
+        if(choices[i] != 'O' && choices[i] != 'X') // if there still is a empty mark on the board, then the game has not tied
+            return false;
+    }
+
+    return true; // all marks on board are filled, and there is no winner
+}
+
 int main()
 {
     cout << "\033[2J\033[1;1H"; //string of special characters that clear screen, makes printing the board much cleaner
@@ -73,7 +99,25 @@ int main()
         cout << "\033[2J\033[1;1H";
 
         tictactoe(); // board state after a move is made by either player
+
+        if(DidPlayerWin() == true) { // Did either player win after their turn?
+
+            if(player == true) // if the match is all "O"
+                cout << "Player 1 wins Tic Tac Toe!" << endl;
+            else // if match instead is all "X"
+                cout << "Player 2 wins Tic Tac Toe!" << endl;
+
+            endGame = true;
+        }
+
+        if(DidPlayersTie() == true) { // Is the board completely filled without a winner?
+            cout << "There is no winner. The game is a tie!" << endl;
+
+            endGame = true;
+        }
+
     }
+
 
     return 0;
 
