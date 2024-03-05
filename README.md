@@ -95,26 +95,33 @@ Return to Arcade:
 Game Setup:
 
 - Specify the number of rounds to play against a computer opponent.
+
 Player's Choices:
 
 - Input choices (1 for Rock, 2 for Paper, 3 for Scissors) for each round.
+
 Opponent's Move:
 
 - Computer generates a random move (Rock, Paper, or Scissors).
+
 Outcome Determination:
 
 - Compare player and computer moves for each round.
 - Display ASCII art representations of choices for added visual appeal.
+
 Scoring:
 
 - Track player wins, computer wins, and ties throughout the rounds.
+
 Game Summary:
 
 - Display a summary after the specified number of rounds.
 - Declare the overall winner based on total wins.
+
 User Interaction:
 
 - Navigate using the Arcade menu, selecting option 3 for Rock Paper Scissors.
+
 Return to Arcade:
 
 - After completing rounds, return to the Arcade menu with a brief delay.
@@ -124,22 +131,28 @@ Return to Arcade:
 Game Board:
 
 - Display a 3x3 board for players to mark spots.
+
 Player Turns:
 
 - Alternating turns for Player 1 (O) and Player 2 (X).
 - Choose an available spot on the board.
+
 Winning Conditions:
 
 - Check for horizontal, vertical, or diagonal matches to declare a winner.
+
 Tie Detection:
 
 - Recognize a tie when the board is full without a winner.
+
 User Interaction:
 
 - Choose Tic Tac Toe from the Arcade menu (option 2) to play.
+
 Game Outcome:
 
 - Display the winner or a tie at the end of each game.
+
 Return to Arcade:
 
 - Return to the Arcade menu after completing a game with a short delay.
