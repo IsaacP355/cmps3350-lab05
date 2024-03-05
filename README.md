@@ -25,7 +25,7 @@ Running the Code:
 
     1. Clone this repository to your local machine.
 
-        git clone https://github.com/IsaacP355/lab05.git
+        git clone https://github.com/IsaacP355/cmps3350-lab05.git
 
     2. Navigate to the project directory.
 
