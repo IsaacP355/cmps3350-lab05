@@ -1,0 +1,59 @@
+﻿Project Code Updates:
+Isaac Pitts
+Harman Bal
+
+
+
+
+
+
+Isaac Pitts 2-20-24:  Created the github repository and started to work on the code
+
+
+Isaac Pitts 2-20-24:  After two hours had a working blackjack with a lot of bugs that including that if the dealer and the player had 21 the player would always win figuring out how to fix this no commits yet.
+
+
+Harman Bal 2-22-24: Created tic tac toe branch, began code for creating a tic tac toe terminal game. 
+
+
+Isaac Pitts 2-23-24:  Worked on cleaning up the code a little more still having that issue not knowing how to fix it.
+
+
+
+
+Harman Bal 2-25-24: Continued development on tic tac toe terminal game, finished look for how board will appear to user.
+
+
+
+
+Isaac Pitts 2-26-24:  Committed what I had and placed it in another branch main issue is figuring out how to change the code more so that I can merge the branches without a lot of code being in main. Need to figure out how to move a lot of commands out of main for blackjack.
+
+
+Isaac Pitts 2-28-24:  Fixed problems with Black Jack code and tried to merge branches and failed.
+
+
+Harman Bal 2-28-24: Worked on code to make sure it would work.
+
+
+Isaac Pitts 2-29-24:  Updated branches although, still unable to merge the Branches on git spent about 3 hours trying to figure out what was wrong error message was saying branches was not up to date even though it was….
+
+
+Harman Bal 2-29-24: Having issues with git as well branch and commit issues was able to fix it and fixed up code issues also added a rock paper scissor game. 
+
+
+Isaac Pitts 3-1-24:  Gave up on branches and started to just merge by myself as it was not letting me merge all the branches together, was able to move all the code together and sorted out the problems with all of the code.
+
+
+Isaac Pitts 3-1-24:  Lowered the amount of code in main by a little bit.
+
+
+Isaac Pitts 3-2-24:  Added a main page for the code and allowed the user to choose what game to play, also have a little start of the arcade.
+
+
+Harman Bal 3-4-24: Had a problem with replayability where tic tac toe would not want to repeat in code fixed up and pushed the final assignment in main branch. Code now can continue to be played and just restarts.
+
+
+Isaac Pitts 3-4-24:  Worked on readme as we had not much information and decided to look online for some templates.
+
+
+Isaac Pitts 3-5-24:  Found a cool website that formats the readme so that it is easier to get messages across and finished the read me.
